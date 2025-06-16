@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Submit Review - Payda.ma</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <a href="index.html">Payda.ma</a>
+  </header>
+  <main>
+    <h2>Add your review</h2>
+    <form id="review-form">
+      <input type="text" id="order" placeholder="Order number" required class="search-input">
+      <input type="number" id="rating" min="1" max="5" placeholder="Rating (1-5)" required class="search-input">
+      <textarea id="text" placeholder="Your review" required class="search-input"></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </main>
+  <script src="review.js"></script>
+</body>
+</html>
